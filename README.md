@@ -1,16 +1,13 @@
 # java-interview-assignment
 Java Backend Developer Interview
 
-#### ui Link
-The link to the user interface where these functionalities
-localhost:8089/api/v1/
-
-NB: The client is a simple thymeleaf model and view template
+#### API Link
+The API link where these functionalities are as follows
 
 The app can be cloned ran locally and tested with postman too.
 
 Example request to register a new card and get the details.
-- localhost:8089/api/v1/card-scheme/verify/41874518
+- https://card-verification-test.herokuapp.com/api/v1/card-scheme/verify/45717360
 
 response: 
 ```json
@@ -24,7 +21,7 @@ response:
 }
 ```
 to get statistics of all saved cards
-- localhost:8080/api/v1/card-scheme/stats?start=1&limit=3
+- https://card-verification-test.herokuapp.com/api/v1/card-scheme/stats?start=1&limit=3
 default param = start=0, limit=25
 ```json
 {
