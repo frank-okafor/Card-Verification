@@ -26,11 +26,11 @@ default param = start=0, limit=25
 ```json
 {
     "success": true,
-    "start": Number,
-    "limit": Number,
-    "size": Number,
+    "start": "",
+    "limit": "",
+    "size": "",
     "payload": {
-      "string" : Integer (or null)
+      "string" : ""
       }
 }
 ```
